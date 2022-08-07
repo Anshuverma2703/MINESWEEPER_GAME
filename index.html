@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Game</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/emoji/48/000000/bomb-emoji.png" type="image/x-icon">
+</head>
+
+<body >
+    <h1 class="heading">WELCOME TO MINESWEEPER GAME</h1>
+    <div class="score">
+        <h1>Score:</h1>
+        <h1 id="score">0</h1>
+        
+        <button id="reset">Reset button</button>
+    </div>
+    <script src="Bombaman.js"></script>
+    <div id="resultDisplay"></div>
+    <style>
+        
+        .heading{
+            text-align: center;
+        }
+        #resultDisplay {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2rem;
+            color: rgb(251, 43, 16);
+        }
+
+        .grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .score {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        #reset{
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+        }
+    </style>
+</body>
+
+</html>
